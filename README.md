@@ -7,7 +7,7 @@ Nom : PREDELUS
 
 Numéro d'étudiant : 2395031
 
-Url du site : (https://itcode0917.github.io/)
+Url du site : (https://itcode0917.github.io/vuJS/)
 
 Résultat : / 10
 
