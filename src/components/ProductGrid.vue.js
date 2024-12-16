@@ -36,7 +36,7 @@ function __VLS_template() {
         __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ key: ((product.id)), ...{ class: ("col-12 col-sm-6 col-md-4 col-lg-3 mb-4") }, });
         __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("card product-card border-0 shadow-sm h-100 position-relative") }, });
         __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("position-relative") }, });
-        __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ src: ((product.image)), ...{ class: ("card-img-top") }, alt: ((product.name)), });
+        __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ src: ((`/vuJS/${product.image}`)), ...{ class: ("card-img-top") }, alt: ((product.name)), });
         if (product.sale) {
             __VLS_elementAsFunction(__VLS_intrinsicElements.span, __VLS_intrinsicElements.span)({ ...{ class: ("badge sale-badge") }, });
         }
